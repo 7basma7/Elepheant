@@ -3,56 +3,52 @@ $(document).ready(function()
 	$("<option/>",{
 		id: idChange(),
 		class :"listOption",
-		text: "cars",
+		text: "what fish is the only known fish that can blink with both eyes.",
+		alt: 'shark',
 	}).appendTo($("#quastion"));
 
 	$("<option/>",{
 		id: idChange(),
 		class :"listOption",
-		text: "carss",
+		text: "whta is the only English word that ends in the letters mt.",
+		alt:'dreamt'
 	}).appendTo($("#quastion"));
 
 	$("<option/>",{
 		id: idChange(),
 		class :"listOption",
-		text: "carsss",
+		text: "Almonds are a member of the what family.",
+		alt:'peach'
 	}).appendTo($("#quastion"));
 
 	$("<option/>",{
 		id: idChange(),
 		class :"listOption",
-		text: "carsss",
+		text: "Tigers have striped skin or  striped fur.",
+		alt:'striped skin'
 	}).appendTo($("#quastion"));
 
 	$("<option/>",{
 		id: idChange(),
 		class :"listOption",
-		text: "carsss",
+		text: "How many colours are in a rainbow?",
+		alt:'7'
 	}).appendTo($("#quastion"));
 
 	$("<option/>",{
 		id: idChange(),
 		class :"listOption",
-		text: "carsss",
+		text: "Name the school that Harry Potter attended?",
+		alt:'Hogwarts'
 	}).appendTo($("#quastion"));
 
 	$("<option/>",{
 		id: idChange(),
 		class :"listOption",
-		text: "carsss",
+		text: "What food do Giant Pandas normally eat",
+		alt:'Bamboo'
 	}).appendTo($("#quastion"));
 
-	$("<option/>",{
-		id: idChange(),
-		class :"listOption",
-		text: "carsss",
-	}).appendTo($("#quastion"));
-	
-	$("<option/>",{
-		id: idChange(),
-		class :"listOption",
-		text: "carsss",
-	}).appendTo($("#quastion"));
 })
 
 var counter  = -1 ;
@@ -61,3 +57,6 @@ function idChange(){
 	counter++;
 	return (string + counter);
 }
+
+
+
